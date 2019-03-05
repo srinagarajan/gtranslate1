@@ -11,7 +11,6 @@ with sr.Microphone() as source:
 	audio = r.listen(source)
 	print("Got it. Thanks....")
 
-
 f = open('home1.html','w')
 
 message1 = """<html><head><title>Translated....</title>
@@ -19,8 +18,7 @@ message1 = """<html><head><title>Translated....</title>
 </head><body>"""
 
 # Detect the language being spoken from the audio
-
-
+# This will have to be address later...
 
 try:
 	textsource = r.recognize_google(audio, language = "en-IN")
