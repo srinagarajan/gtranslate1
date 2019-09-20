@@ -1,3 +1,4 @@
+# (c) - Sri Nagarajan - mnseenu@gmail.com
 # This is speech recognition program
 
 import speech_recognition as sr
